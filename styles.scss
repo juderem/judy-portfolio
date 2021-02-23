@@ -1,0 +1,59 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    background: #fffefa;
+}
+
+.navbar-bg-light {
+    display: flex;
+    justify-content: center;
+    float: left;
+    z-index: 1;
+    width: 20%;
+    margin-top: 200px;
+}
+
+.nav-link {
+    margin: 10px;
+    padding: 0;
+    color: black;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 350;
+}
+
+.nav-link:hover {
+    color: #FFD0EC;
+}
+
+.vl {
+    border-left: 2px solid black;
+    height: 100vh;
+    position: absolute;
+    left: 20%;
+    margin-left: -3px;
+    top: 0;
+}
+
+.header {
+    font-family: 'Lexend Deca', sans-serif;
+    z-index: -1;
+    position: absolute;
+    top: 80;
+    right: 0;
+    margin-left: auto;
+    font-size: 100px;
+    background-color: transparent;
+    border: none;
+    width: 70%;
+}
+
+.panel {
+    position: absolute;
+    border-right: 500px solid #FFD0EC;
+    height: 100vh;
+    right: 1%;
+    margin-right: 5%;
+    top:0;
+    z-index: -2;
+}
+
