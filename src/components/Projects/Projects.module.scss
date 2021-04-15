@@ -1,0 +1,86 @@
+@import '../../assets/styles.scss';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+.container {
+    background: rgb(205,198,218);
+    background: linear-gradient(180deg, rgba(205,198,218,1) 0%, rgba(248,195,184,1) 35%, rgba(237,190,200,1) 100%);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    width: 100vw;
+}
+
+.header {
+    grid-area: header;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 80px;
+    color: $font-color;
+}
+
+.main {
+    grid-area: main;
+    display: flex;
+    width: 100vw;
+    justify-content: space-evenly;
+}
+
+.game, .calc, .morse, .beer {
+    grid-area: main;
+    padding: 0.5%;
+    img {
+        height: 300px;
+        width: 400px;
+        opacity: 0.6;
+        border-radius: 8px;
+        margin: 5px;
+        
+    }
+    img:hover {
+        opacity: 1;
+        transition: opacity 0.5s ease-in-out;
+        cursor: pointer;
+    }
+    
+}
+
+.pGame, .pCalc, .pMorse, .pBeer, .icon {
+    display: none;
+}
+
+.game:hover, .calc:hover, .morse:hover, .beer:hover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    background-color: white;
+    height: 560px;
+    min-width: 20%;
+    max-width: 24%;
+    margin: 0;
+    transition: background-color 0.5s ease-in-out;
+    .pGame, .pCalc, .pMorse, .pBeer {
+        display: flex;
+        flex-wrap: wrap;
+        color: $font-color;
+        width: 70%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .icon {
+        font-size: 30px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        color: black;
+    }
+
+    .icon:hover {
+        color: $font-color;
+        cursor: pointer;
+    }
+}

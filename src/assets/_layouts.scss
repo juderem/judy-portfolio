@@ -1,0 +1,46 @@
+  .container {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 80px 200px 595px 80px;
+    grid-template-areas: 
+      'nav'
+      'header'
+      'main'
+      'footer';
+  }
+  
+  @media only screen and (max-width: 576px) {
+      body {
+        background-image: none;
+      }
+      .content {
+        grid-template-columns: 1fr;
+        grid-template-rows: 60px 1fr 28px;
+        
+      }
+  
+      .mainSection {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        overflow: scroll;
+        //width: 100vw;
+      }
+    }
+  
+    /* HOW TO USE
+@import "../../assets/styles/styles.scss"   into your module.
+
+the first div, which wraps <NavBar> <Timer> <yourComponent> needs to have className={styles.content}
+example: MealSelection.jsx -->    <div className={styles.content}> 
+                                        <NavBar> <Timer> <WeeklySelection> 
+                                  </div>
+on your component the first div that wraps whatever you're displaying needs to have className={styles.mainSection}
+example: WeeklySelection.jsx ---> <div className={styles.mainSection}> 
+                                        <DailySelection> 
+                                  </div>
+
+CHECK AboutUs.module.scss FOR REFERENCE IF YOU'RE NOT SURE!
+ */
