@@ -35,13 +35,13 @@ export default function Nav() {
           <p className={styles.name}>JUDY RACHEL MILNER</p>
           <ul>
             <li>
-              <Link to="/" style={{textDecoration: 'none'}}>Home</Link>
+              <Link to="/judy-portfolio" style={{textDecoration: 'none'}}>Home</Link>
             </li>
             <li>
-              <Link to="/about" style={{textDecoration: 'none'}}>About</Link>
+              <Link to="/judy-portfolio/about" style={{textDecoration: 'none'}}>About</Link>
             </li>
             <li>
-              <Link to="/projects" style={{textDecoration: 'none'}}>Projects</Link>
+              <Link to="/judy-portfolio/projects" style={{textDecoration: 'none'}}>Projects</Link>
             </li>
           </ul>
         </nav>
