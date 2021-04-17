@@ -1,12 +1,17 @@
 import React from "react";
 import Nav from './components/Nav';
 import Home from './components/Home';
-
+import {
+  BrowserRouter,
+  Link,
+  Route,
+  Switch,
+  withRouter
+} from "react-router-dom";
 export default function App() {
   return (
     <div className="App">
-      <Nav />
-      <Home />
+        <Nav />
     </div>
   );
 }
