@@ -17,6 +17,7 @@
     margin: 10px 50px;
     font-size: 160px;
     color: $font-color;
+    height: 20px;
 }
 
 .main {
@@ -30,9 +31,10 @@
     flex-direction: column;
     align-self: center;
     flex-wrap: wrap;
+    
 
     .iconContainer {
-        grid-area: main;
+        grid-area: footer;
         display: flex;
         height: 200px;
         width: 400px;
@@ -43,6 +45,7 @@
         width: 500px;
         height: auto;
         align-self: center;
+        margin: 20px;
         .icon {
             padding: 5px;
             margin: 10px;
@@ -73,12 +76,15 @@
         }
     }
     
-    #bio {
+    .bio {
         display: flex;
         grid-area: main;
         font-size: 20px;
+        justify-content: flex-start;
+        align-items: flex-start;
+        align-self: flex-start;
         text-align: center;
-        width: 60vw;
+        width: auto;
         height: 300px;
         font-size: 25px;
         margin: 1px;
@@ -87,3 +93,13 @@
     }
 }
 
+@media all and (min-width: 813px) {
+    
+}
+
+@media only screen and (max-width: 812px) {
+    .main {
+        height: 100vh;
+    }
+    
+}

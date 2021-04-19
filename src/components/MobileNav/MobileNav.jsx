@@ -11,7 +11,7 @@ import "../../transitions/transitions.scss";
 import Home from '../Home';
 import About from '../About';
 import Projects from '../Projects';
-import styles from './Nav.module.scss';
+import styles from './MobileNav.module.scss';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import library from '../../data/fa-library.js';
 
@@ -32,21 +32,10 @@ const AnimatedSwitch = withRouter(({ location }) => (
 export default function Nav() {
   return (
     <div className="functionality">
-      <BrowserRouter className={styles.nav}>
+      <BrowserRouter className={styles.mobNav}>
         <AnimatedSwitch />
         <nav className={styles.container}>
           <p className={styles.name}>JUDY RACHEL MILNER</p>
-          <ul className={styles.nav}>
-            <li className={styles.navList}>
-              <Link to="/judy-portfolio" style={{textDecoration: 'none'}}>Home</Link>
-            </li>
-            <li className={styles.navList}>
-              <Link to="/judy-portfolio/about" style={{textDecoration: 'none'}}>About</Link>
-            </li>
-            <li className={styles.navList}>
-              <Link to="/judy-portfolio/projects" style={{textDecoration: 'none'}}>Projects</Link>
-            </li>
-          </ul>
           <ul className={styles.mobNav}>
             <li>
               <Link to="/judy-portfolio" style={{textDecoration: 'none'}}>

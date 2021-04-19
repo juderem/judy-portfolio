@@ -84,3 +84,19 @@
         cursor: pointer;
     }
 }
+
+@media all and (min-width: 813px) {
+    
+}
+
+@media only screen and (max-width: 812px) {
+    .game, .calc, .morse, .beer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main {
+        justify-content: center;
+    }
+    
+}
