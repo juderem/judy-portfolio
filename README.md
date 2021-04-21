@@ -1,70 +1,17 @@
-# Getting Started with Create React App
+To introduce myself and showcase some of the work I've done, I created this portfolio using React.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![PortHome](https://user-images.githubusercontent.com/63235971/115593033-e6d96600-a2cb-11eb-86e0-9e1d59047211.jpg)
 
-## Available Scripts
+I wanted to keep the design fairly simple, with a landing page that explains what's happening. I implimented a nice horizontal scrolling effect between pages on the nav bar.
+For the color scheme I was feeling quite summer-ry, so I created a CSS gradient with colors taken from a picture of a sunset. Like anyone else I would usually gravitate towards a
+black or white background, however because this website won't have too many other images on it, it shouldn't end up looking too busy.
 
-In the project directory, you can run:
+![PortAbout](https://user-images.githubusercontent.com/63235971/115593606-99112d80-a2cc-11eb-83d4-697349e61674.jpg)
 
-### `npm start`
+The about page is very simple too, for the tech stack icons I added a color change on hover. The information on this page may be expanded in future.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![PortProjects](https://user-images.githubusercontent.com/63235971/115593827-e8575e00-a2cc-11eb-86c0-7ff6640d2171.jpg)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+For the projects page, I added gifs of my projects in a working condition. On hover I created a card that has a title, a very brief description and a link to the github repo.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The responsive design isn't quite finished- I designed a new nav bar, so when the media breakpoint is hit the original one disappears and is replaced by the mobile one at the bottom of the page.
