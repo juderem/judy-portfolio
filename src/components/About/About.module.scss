@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 .container {
-    background: rgb(205,198,218);
+    background: #EDBEC7;
     background: linear-gradient(180deg, rgba(205,198,218,1) 0%, rgba(248,195,184,1) 35%, rgba(237,190,200,1) 100%);
     text-align: center;
     font-family: 'Roboto', sans-serif;
@@ -78,9 +78,7 @@
     .bio {
         display: flex;
         grid-area: main;
-        font-size: 20px;
-        justify-content: flex-start;
-        align-items: flex-start;
+        justify-content: center;
         align-self: center;
         text-align: center;
         width: 80vw;
@@ -88,8 +86,6 @@
         margin: 1px;
         padding: 5px;
         color: $font-color;
-    }
-    p {
         font-size: 20px;
     }
 }
@@ -100,7 +96,27 @@
 
 @media only screen and (max-width: 812px) {
     .main {
-        height: 100vh;
+        grid-area: main;
+        height: 130vh;
+        width: 100vw;
+    }
+    .header {
+        grid-area: header;
+        font-size: 70px;
+        width: 100vw;
+    }
+    p {
+        width: 100vw;
+        margin: 10px;
+    }
+    .iconContainer {
+        width: 100vw;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+    .icon {
+        font-size: 30px;
     }
     
 }

@@ -10,7 +10,7 @@ const About = () => {
         <h1 className={styles.header}>ABOUT</h1>
         <div className={styles.main}>
           <div className={styles.bio}>
-            <p>
+            <p className={styles.bio}>
               Hi, I'm Judy! I'm a junior web developer living in Stroud. After getting my degree in 
               Photography from Bath Spa University, I wanted
               to combine my creative skills with my interest in tech, so I enrolled in the _Nology course

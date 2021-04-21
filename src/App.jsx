@@ -1,7 +1,6 @@
 import React from "react";
 import Nav from './components/Nav';
 import Home from './components/Home';
-import MobileNav from './components/MobileNav';
 import { useState } from 'react';
 import {
   BrowserRouter,
@@ -14,7 +13,6 @@ export default function App() {
   return (
     <div className="App">
         <Nav />
-        {/* <MobileNav /> */}
     </div>
   );
 }
