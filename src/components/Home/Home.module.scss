@@ -2,8 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 html {
-    height: 100vw;
-    overflow: visible;
     background: linear-gradient(180deg, rgba(205,198,218,1) 0%, rgba(248,195,184,1) 35%, rgba(237,190,200,1) 100%);
 }
 
@@ -17,15 +15,21 @@ html {
     width: 100vw;
 }
 
+p {
+ font-size: 130px;
+ margin: 0
+
+}
+
 .main {
-    grid-area: main;
-    font-size: 150px;
+    grid-area: header;
     text-align: left;
     color: $font-color;  
     font-family: "Roboto", sans-serif;
     width: 80vw;
+    height: auto;
     display: flex;
-    align-self: flex-end;
+    align-self: flex-start;
     margin: 30px;
 }
 
@@ -41,7 +45,6 @@ html {
         background: rgb(205,198,218);
         background: linear-gradient(180deg, rgba(205,198,218,1) 0%, rgba(248,195,184,1) 35%, rgba(237,190,200,1) 100% norepeat);
         background-repeat: no-repeat;
-        height: 100vh;
     }
 
     .container {

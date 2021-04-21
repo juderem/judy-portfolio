@@ -22,7 +22,7 @@
 
 .main {
     grid-area: main;
-    font-size: 100px;
+    // font-size: 100px;
     text-align: center;
     color: $font-color;  
     font-family: "Roboto", sans-serif;
@@ -86,10 +86,12 @@
         text-align: center;
         width: auto;
         height: 300px;
-        font-size: 25px;
         margin: 1px;
         padding: 5px;
         color: $font-color;
+    }
+    p {
+        font-size: 20px;
     }
 }
 
