@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/judy-portfolio/static/css/main.bd79d893.chunk.css",
+    "main.css": "/judy-portfolio/static/css/main.ffd45250.chunk.css",
     "main.js": "/judy-portfolio/static/js/main.313c8daa.chunk.js",
     "main.js.map": "/judy-portfolio/static/js/main.313c8daa.chunk.js.map",
     "runtime-main.js": "/judy-portfolio/static/js/runtime-main.00d546b7.js",
@@ -10,7 +10,7 @@
     "static/js/3.89c5fc64.chunk.js": "/judy-portfolio/static/js/3.89c5fc64.chunk.js",
     "static/js/3.89c5fc64.chunk.js.map": "/judy-portfolio/static/js/3.89c5fc64.chunk.js.map",
     "index.html": "/judy-portfolio/index.html",
-    "static/css/main.bd79d893.chunk.css.map": "/judy-portfolio/static/css/main.bd79d893.chunk.css.map",
+    "static/css/main.ffd45250.chunk.css.map": "/judy-portfolio/static/css/main.ffd45250.chunk.css.map",
     "static/js/2.401383c0.chunk.js.LICENSE.txt": "/judy-portfolio/static/js/2.401383c0.chunk.js.LICENSE.txt",
     "static/media/jsbeer.24de412f.gif": "/judy-portfolio/static/media/jsbeer.24de412f.gif",
     "static/media/jscalc.42284d67.gif": "/judy-portfolio/static/media/jscalc.42284d67.gif",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.00d546b7.js",
     "static/js/2.401383c0.chunk.js",
-    "static/css/main.bd79d893.chunk.css",
+    "static/css/main.ffd45250.chunk.css",
     "static/js/main.313c8daa.chunk.js"
   ]
 }
