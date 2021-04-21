@@ -97,7 +97,16 @@
     }
 
     .main {
+        grid-area: main;
         justify-content: center;
+        height: 100vh;
+        flex-direction: column;
+    }
+    .header {
+        grid-area: header;
+        font-size: 30px;
+        justify-content: center;
+        align-items: flex-start;
     }
     
 }
