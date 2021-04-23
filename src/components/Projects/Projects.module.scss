@@ -6,7 +6,7 @@
     background: linear-gradient(180deg, rgba(205,198,218,1) 0%, rgba(248,195,184,1) 35%, rgba(237,190,200,1) 100%);
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    height: 100vh;
+    height: 100%;
     width: 100vw;
 }
 
@@ -96,17 +96,48 @@
         flex-direction: column;
         padding: 10px;
         margin: 10px;
+        justify-content: flex-start;
+        align-items: center;
+        border-radius: 8px;
+        background-color: white;
+        height: auto;
+        // min-width: 20%;
+        // max-width: 24%;
+        margin: 10px;
+        padding: 10px;
         img {
             height: auto;
             width: 300px;
+            opacity: 1;
         }
+        .icon {
+            font-size: 30px;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            display: flex;
+            color: $font-color;
+        }
+    }
+
+    .pGame, .pCalc, .pMorse, .pBeer {
+        display: flex;
+        flex-wrap: wrap;
+        color: $font-color;
+        width: 70%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 20px;
     }
 
     .main {
         grid-area: main;
         justify-content: center;
-        height: 100vh;
+        height: 350vh;
         flex-direction: column;
+        background: rgb(205,198,218);
+    background: linear-gradient(180deg, rgba(205,198,218,1) 0%, rgba(248,195,184,1) 35%, rgba(237,190,200,1) 100%);
     }
     .header {
         grid-area: header;
