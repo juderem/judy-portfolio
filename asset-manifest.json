@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/judy-portfolio/static/css/main.6788158d.chunk.css",
-    "main.js": "/judy-portfolio/static/js/main.313c8daa.chunk.js",
-    "main.js.map": "/judy-portfolio/static/js/main.313c8daa.chunk.js.map",
-    "runtime-main.js": "/judy-portfolio/static/js/runtime-main.00d546b7.js",
-    "runtime-main.js.map": "/judy-portfolio/static/js/runtime-main.00d546b7.js.map",
-    "static/js/2.401383c0.chunk.js": "/judy-portfolio/static/js/2.401383c0.chunk.js",
-    "static/js/2.401383c0.chunk.js.map": "/judy-portfolio/static/js/2.401383c0.chunk.js.map",
-    "static/js/3.89c5fc64.chunk.js": "/judy-portfolio/static/js/3.89c5fc64.chunk.js",
-    "static/js/3.89c5fc64.chunk.js.map": "/judy-portfolio/static/js/3.89c5fc64.chunk.js.map",
+    "main.css": "/judy-portfolio/static/css/main.7938139c.chunk.css",
+    "main.js": "/judy-portfolio/static/js/main.2accea15.chunk.js",
+    "main.js.map": "/judy-portfolio/static/js/main.2accea15.chunk.js.map",
+    "runtime-main.js": "/judy-portfolio/static/js/runtime-main.f2f1cc56.js",
+    "runtime-main.js.map": "/judy-portfolio/static/js/runtime-main.f2f1cc56.js.map",
+    "static/js/2.4dafe5d2.chunk.js": "/judy-portfolio/static/js/2.4dafe5d2.chunk.js",
+    "static/js/2.4dafe5d2.chunk.js.map": "/judy-portfolio/static/js/2.4dafe5d2.chunk.js.map",
+    "static/js/3.4212f6ea.chunk.js": "/judy-portfolio/static/js/3.4212f6ea.chunk.js",
+    "static/js/3.4212f6ea.chunk.js.map": "/judy-portfolio/static/js/3.4212f6ea.chunk.js.map",
     "index.html": "/judy-portfolio/index.html",
-    "static/css/main.6788158d.chunk.css.map": "/judy-portfolio/static/css/main.6788158d.chunk.css.map",
-    "static/js/2.401383c0.chunk.js.LICENSE.txt": "/judy-portfolio/static/js/2.401383c0.chunk.js.LICENSE.txt",
+    "static/css/main.7938139c.chunk.css.map": "/judy-portfolio/static/css/main.7938139c.chunk.css.map",
+    "static/js/2.4dafe5d2.chunk.js.LICENSE.txt": "/judy-portfolio/static/js/2.4dafe5d2.chunk.js.LICENSE.txt",
     "static/media/jsbeer.24de412f.gif": "/judy-portfolio/static/media/jsbeer.24de412f.gif",
     "static/media/jscalc.42284d67.gif": "/judy-portfolio/static/media/jscalc.42284d67.gif",
     "static/media/jsgame.948650ef.gif": "/judy-portfolio/static/media/jsgame.948650ef.gif",
     "static/media/jsmorse.b49d3c4a.gif": "/judy-portfolio/static/media/jsmorse.b49d3c4a.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.00d546b7.js",
-    "static/js/2.401383c0.chunk.js",
-    "static/css/main.6788158d.chunk.css",
-    "static/js/main.313c8daa.chunk.js"
+    "static/js/runtime-main.f2f1cc56.js",
+    "static/js/2.4dafe5d2.chunk.js",
+    "static/css/main.7938139c.chunk.css",
+    "static/js/main.2accea15.chunk.js"
   ]
 }
