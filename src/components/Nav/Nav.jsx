@@ -14,6 +14,8 @@ import Projects from '../Projects';
 import styles from './Nav.module.scss';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import library from '../../data/fa-library.js';
+// The FA library import is NEEDED even though the application doesn't think
+// it's being used
 
 
 const AnimatedSwitch = withRouter(({ location }) => (
