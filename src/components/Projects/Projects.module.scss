@@ -35,7 +35,7 @@
     padding: 0.5%;
     img {
         height: 300px;
-        width: 400px;
+        width: auto;
         opacity: 0.6;
         border-radius: 8px;
         margin: 5px;
@@ -62,8 +62,6 @@
         border-radius: 8px;
         background-color: white;
         height: 560px;
-        min-width: 20%;
-        max-width: 24%;
         margin: 0;
         transition: background-color 0.5s ease-in-out;
         .pGame, .pCalc, .pMorse, .pBeer {
@@ -153,6 +151,13 @@
         align-items: flex-start;
     }
     
+}
+
+@media only screen and (max-width: 1650px) {
+    .game, .calc, .morse, .beer {
+        width: 50%;
+        height: auto;
+    }
 }
 
 @media only screen and (max-width: 1124px) {

@@ -1,7 +1,6 @@
 import React from 'react'
 import styles from './About.module.scss'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import library from '../../data/fa-library.js';
 
 
 const About = () => {
