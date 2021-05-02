@@ -13,6 +13,7 @@ import About from '../About';
 import Projects from '../Projects';
 import styles from './Nav.module.scss';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import library from '../../data/fa-library.js';
 
 
 const AnimatedSwitch = withRouter(({ location }) => (
