@@ -11,6 +11,7 @@ import "../../transitions/transitions.scss";
 import Home from '../Home';
 import About from '../About';
 import Projects from '../Projects';
+import Photos from '../Photos'
 import styles from './Nav.module.scss';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import library from '../../data/fa-library.js';
@@ -26,6 +27,7 @@ const AnimatedSwitch = withRouter(({ location }) => (
         <Route path="/judy-portfolio" component={Home} exact/>
         <Route path="/judy-portfolio/about" component={About} />
         <Route path="/judy-portfolio/projects" component={Projects} />
+        <Route path="/judy-portfolio/photos" component={Photos} />
       </Switch>
     </CSSTransition>
   </TransitionGroup>
@@ -48,6 +50,9 @@ export default function Nav() {
             <li className={styles.navList}>
               <Link to="/judy-portfolio/projects" style={{textDecoration: 'none'}}>Projects</Link>
             </li>
+            <li className={styles.navList}>
+              <Link to="/judy-portfolio/photos" style={{textDecoration: 'none'}}>Photography</Link>
+            </li>
           </ul>
           <ul className={styles.mobNav}>
             <li>
@@ -63,6 +68,11 @@ export default function Nav() {
             <li>
               <Link to="/judy-portfolio/projects" style={{textDecoration: 'none'}}>
                 <FontAwesomeIcon icon={['fas', 'briefcase']} />
+              </Link>
+            </li>
+            <li>
+              <Link to="/judy-portfolio/photos" style={{textDecoration: 'none'}}>
+                <FontAwesomeIcon icon={['fas', 'images']} />
               </Link>
             </li>
           </ul>
