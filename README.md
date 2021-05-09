@@ -15,3 +15,11 @@ The about page is very simple too, for the tech stack icons I added a color chan
 For the projects page, I added gifs of my projects in a working condition. On hover I created a card that has a title, a very brief description and a link to the github repo.
 
 The responsive design isn't quite finished- I designed a new nav bar, so when the media breakpoint is hit the original one disappears and is replaced by the mobile one at the bottom of the page.
+
+09/05/2021
+
+I've decided to add a Photography page to my portfolio. While it isn't strictly relevant to Web Design, I have a degree in Photography and I thought by putting some of my pictures into my project I could give a better insight into my creative style. I chose a sample of photos that don't require mcuh additional context.
+
+![selection](https://user-images.githubusercontent.com/63235971/117577925-d60a5c00-b0e3-11eb-9f23-fa86ab4dc6e2.jpg)
+
+This has led me to think about the overall colour-scheme: I really like the pink-sunset gradient but it has made coordinating additional assets a struggle, and that becomes clearer when introducing my photos. Once the gallery is in place I'll be trying some new colour schemes out.
