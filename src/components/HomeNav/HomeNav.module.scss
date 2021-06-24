@@ -1,0 +1,44 @@
+@import '../../assets/styles.scss';
+
+.container {
+    grid-area: main;
+    margin-left: 400px;
+    padding: 10px;
+    width: 100vw;
+}
+
+.HomeNav {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    .content {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .Projects {
+        background-color: #F3EEE9;
+        height: 40vh;
+        width: 50vw;
+        margin: 20px;
+        .projPic {
+            width: 300px;
+            height: auto;
+            padding: 20px;
+        }
+    }
+    .Experience {
+        background-color: #F3EEE9;
+        height: 40vh;
+        width: 50vw;
+        margin: 20px;
+        .expPic {
+            width: 300px;
+            height: auto;
+            padding: 20px;
+        }
+    }
+}

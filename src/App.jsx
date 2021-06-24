@@ -1,10 +1,12 @@
 import React from "react";
-import Nav from './components/Nav';
+import AboutBar from './components/AboutBar';
+import HomeNav from './components/HomeNav';
 
 export default function App() {
   return (
     <div className="App">
-        <Nav />
+        <AboutBar />
+        <HomeNav />
     </div>
   );
 }

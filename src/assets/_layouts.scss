@@ -5,9 +5,7 @@
     grid-template-rows: 80px 200px auto 80px;
     grid-template-areas: 
       'nav'
-      'header'
-      'main'
-      'footer';
+      'main';                                        
   }
 
   @media only screen and (max-width: 812px) {
