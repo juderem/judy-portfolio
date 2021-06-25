@@ -31,42 +31,73 @@ example: WeeklySelection.jsx ---> <div className={styles.mainSection}>
 
 CHECK AboutUs.module.scss FOR REFERENCE IF YOU'RE NOT SURE!
  */
+html, body {
+  font-family: "DM Sans", sans-serif;
+}
+
 .container {
   grid-area: main;
   margin-left: 400px;
   padding: 10px;
-  width: 100vw;
+  width: 70vw;
+  margin-left: 25vw;
 }
 
-.HomeNav {
+.icon .HomeNav {
   margin: 0;
   padding: 0;
   display: flex;
   justify-content: center;
   flex-direction: column;
+  width: 60vw;
 }
-.HomeNav .content {
+.icon .HomeNav .content {
   display: flex;
   flex-direction: row;
+  width: 40vw;
 }
-.HomeNav .Projects {
-  background-color: #F3EEE9;
+.icon .HomeNav .heading {
+  font-style: italic;
+}
+.icon .HomeNav .menu {
+  margin: 0;
+  padding: 0;
+  margin-top: 20px;
+}
+.icon .HomeNav .menuItem {
+  list-style-type: none;
+  height: 20vh;
+  padding: 10px;
+}
+.icon .HomeNav .Code {
+  background-color: #f5f5f5;
   height: 40vh;
-  width: 50vw;
+  width: 72vw;
   margin: 20px;
 }
-.HomeNav .Projects .projPic {
+.icon .HomeNav .Code .codePic {
   width: 300px;
   height: auto;
   padding: 20px;
 }
-.HomeNav .Experience {
-  background-color: #F3EEE9;
+.icon .HomeNav .Experience {
+  background-color: #f5f5f5;
   height: 40vh;
-  width: 50vw;
+  width: 72vw;
   margin: 20px;
 }
-.HomeNav .Experience .expPic {
+.icon .HomeNav .Experience .expPic {
+  width: 300px;
+  height: auto;
+  padding: 20px;
+}
+.icon .HomeNav .Design {
+  background-color: #f5f5f5;
+  height: 40vh;
+  width: 72vw;
+  margin: 20px;
+}
+.icon .HomeNav .Design .designPic {
   width: 300px;
   height: auto;
   padding: 20px;

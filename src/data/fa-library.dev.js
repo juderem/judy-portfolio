@@ -11,6 +11,6 @@ var _freeBrandsSvgIcons = require("@fortawesome/free-brands-svg-icons");
 
 var _freeSolidSvgIcons = require("@fortawesome/free-solid-svg-icons");
 
-var _default = _fontawesomeSvgCore.library.add(_freeBrandsSvgIcons.fab, _freeSolidSvgIcons.faCheckSquare, _freeSolidSvgIcons.faCoffee, _freeBrandsSvgIcons.faHtml5, _freeBrandsSvgIcons.faGithub, _freeSolidSvgIcons.faHome, _freeSolidSvgIcons.faBriefcase, _freeSolidSvgIcons.faInfoCircle, _freeSolidSvgIcons.faImages, _freeBrandsSvgIcons.faLinkedin);
+var _default = _fontawesomeSvgCore.library.add(_freeBrandsSvgIcons.fab, _freeSolidSvgIcons.faCheckSquare, _freeSolidSvgIcons.faCoffee, _freeBrandsSvgIcons.faHtml5, _freeBrandsSvgIcons.faGithub, _freeSolidSvgIcons.faHome, _freeSolidSvgIcons.faBriefcase, _freeSolidSvgIcons.faInfoCircle, _freeSolidSvgIcons.faImages, _freeBrandsSvgIcons.faLinkedin, _freeSolidSvgIcons.faChevronRight, _freeSolidSvgIcons.faChevronCircleLeft);
 
 exports["default"] = _default;

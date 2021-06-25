@@ -6,7 +6,7 @@
   grid-gap: 5px;
   grid-template-columns: 1fr;
   grid-template-rows: 80px 200px auto 80px;
-  grid-template-areas: "nav" "header" "main" "footer";
+  grid-template-areas: "nav" "main";
 }
 
 @media only screen and (max-width: 812px) {
@@ -31,8 +31,12 @@ example: WeeklySelection.jsx ---> <div className={styles.mainSection}>
 
 CHECK AboutUs.module.scss FOR REFERENCE IF YOU'RE NOT SURE!
  */
+html, body {
+  font-family: "DM Sans", sans-serif;
+}
+
 .AboutBar {
-  width: 20vw;
+  width: 25vw;
   background-color: #F3EEE9;
   height: 100vh;
   position: fixed;
@@ -67,7 +71,7 @@ CHECK AboutUs.module.scss FOR REFERENCE IF YOU'RE NOT SURE!
   padding: 20px;
   height: auto;
   margin: 10px;
-  width: auto;
+  width: 17vw;
   font-weight: lighter;
   margin-bottom: 2px;
 }
