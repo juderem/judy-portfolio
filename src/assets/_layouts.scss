@@ -1,26 +1,11 @@
-  // .container {
-  //   display: grid;
-  //   grid-gap: 5px;
-  //   grid-template-columns: 1fr;
-  //   grid-template-rows: 80px 200px auto 80px;
-  //   grid-template-areas: 
-  //     'nav'
-  //     'main';                                        
-  // }
+  .container {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 25vw 5vw 70vw;
+    grid-template-areas: 
+      'about' 'nav' 'main';                                        
+  }
 
-  // @media only screen and (max-width: 812px) {
-
-  //   .container {
-  //     grid-template-columns: 1fr;
-  //     grid-template-rows: 50px 1fr 120px;
-  //     display: grid;
-  //     grid-template-areas: 
-  //       'nav'
-  //       'header'
-  //       'main'
-  //       'footer';
-  //   }
-    
     
   // }
 

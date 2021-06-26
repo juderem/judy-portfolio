@@ -9,7 +9,7 @@ import library from '../../data/fa-library.js';
 const Home = () => {
     return (
         <div className={styles.Home}>
-            {/* <div className={styles.container}>
+            <div className={styles.container}>
                 <div className={styles.HomeNav}>
                         <div className={styles.Code}>
                             <div className={styles.content}>
@@ -39,7 +39,7 @@ const Home = () => {
                             </div>
                         </div>
                 </div>
-            </div> */}
+            </div>
         </div>
     )
 }

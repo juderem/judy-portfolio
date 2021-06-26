@@ -3,8 +3,11 @@ import styles from './Design.module.scss';
 
 const Design = () => {
     return (
-        <div className={styles.design}>
+        <div className={styles.container}>
+            <div className={styles.design}>
+            </div>
         </div>
+        
     )
 }
 

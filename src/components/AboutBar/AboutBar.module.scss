@@ -1,12 +1,15 @@
 @import '../../assets/styles.scss';
 
+.container {
+    display: grid;
+    grid-area: about;
+}
+
 .AboutBar {
     width: 25vw;
     background-color: #F3EEE9;
     height: 100vh;
     position: fixed;
-    display: grid;
-    grid-area: about;
     justify-content: center;
     flex-direction: column;
     text-align: center;

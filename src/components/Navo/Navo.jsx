@@ -20,6 +20,7 @@ import {
 
 const Navo = () => {
     return (
+      <div className={styles.container}>
         <div className={styles.navo}>
             <BrowserRouter className={styles.router}>
                 <Link to="/" className={styles.link}>
@@ -36,12 +37,16 @@ const Navo = () => {
                 </Link>
                 <Switch>
                   <Route exact path="/" component={Home} />
+                  <Route exact path="judy-portfolio">
+                    <Redirect to="/" />
+                  </Route>
                   <Route exact path="/code" component={Code} />
                   <Route exact path="/design" component={Design} />
                   <Route exact path="/exp" component={Exp} />
                 </Switch>
             </BrowserRouter>
         </div>
+      </div>
     )
 }
 

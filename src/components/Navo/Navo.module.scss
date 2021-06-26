@@ -1,3 +1,10 @@
+@import '../../assets/styles.scss';
+
+.container {
+    display: grid;
+    grid-area: nav;
+}
+
 .navo {
     background-color: lightgray;
     height: 100vh;
