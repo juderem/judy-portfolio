@@ -3,8 +3,7 @@ import styles from './Design.module.scss';
 
 const Design = () => {
     return (
-        <div>
-            <h1>Design</h1>
+        <div className={styles.design}>
         </div>
     )
 }

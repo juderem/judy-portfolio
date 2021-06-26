@@ -3,6 +3,7 @@ import styles from './AboutBar.module.scss';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import library from '../../data/fa-library.js';
 import judy from '../../assets/images/JudyMilnerPicture.jpg';
+import Navo from '../Navo';
 
 const AboutBar = () => {
     return (
@@ -30,6 +31,7 @@ const AboutBar = () => {
                     </a>
                 </div>
             </div>
+            <Navo />
         </div>
     )
 }

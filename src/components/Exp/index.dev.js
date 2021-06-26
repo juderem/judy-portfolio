@@ -5,9 +5,9 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports["default"] = void 0;
 
-var _HomeNav = _interopRequireDefault(require("./HomeNav.jsx"));
+var _Experience = _interopRequireDefault(require("./Exp.jsx"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
-var _default = _HomeNav["default"];
+var _default = _Exp["default"];
 exports["default"] = _default;
