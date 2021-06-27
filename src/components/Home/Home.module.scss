@@ -7,7 +7,10 @@ html {
 }
 
 .Home {
+    display: flex;
+    justify-content: flex-start;
     grid-area: main;
+    align-items: stretch;
 }
 
 // .container {

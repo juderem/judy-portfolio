@@ -3,10 +3,11 @@
 .container {
     display: grid;
     grid-area: about;
+    width: 30vw;
 }
 
 .AboutBar {
-    width: 25vw;
+    // width: 25vw;
     background-color: #F3EEE9;
     height: 100vh;
     position: fixed;
@@ -73,4 +74,41 @@
     .icon:visited {
         color: black;
     }
+}
+
+.navo {
+    background-color: lightgray;
+    height: 100vh;
+    top: 0;
+    // width: 5vw;
+    // position: fixed;
+    // margin-left: 10.5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: black;
+}
+
+.link {
+    font-style: italic;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+    margin: 0;
+    flex-direction: row;
+    grid-area: about;
+    width: 20vw;
+    // height: 15vh;
+}
+
+.link:hover {
+    color: red;
+}
+
+.link:link {
+    text-decoration: none;
+}
+
+.Navo_link__pCRmr {
+    color: black;
 }
